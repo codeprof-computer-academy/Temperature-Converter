@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.container{
+    width: 70%;
+    height: fit-content;
+    border:1px solid #666;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.app-name{
+    font-weight: 400;
+    width: 71.5%;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.conversion-container{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+
+}
+
+.left, .right{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.middle h1{
+    font-weight: 400;
+}
+
+
+.left input, .right input{
+    padding: 8px;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    border: 1px solid #bdbdbd;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: none;
+   
+}
+
+.left select,
+.right select {
+        padding: 5px;
+        width: 100%;
+        outline: none;
+        text-align: left;
+        border: 1px solid #bdbdbd;
+        font-size: 14px;
+        font-weight: 400;
+        background-color: #f9f9f9;
+}
+
+.formula-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+  
+}
+
+.formula{
+    width: fit-content;
+    padding: 0 5px 0 3px;
+    background-color: #F9AB00;
+    color:white;
+    font-size: 14px;
+    border-radius: 2px;
+
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+ 
+}

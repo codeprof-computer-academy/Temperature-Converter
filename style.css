@@ -125,3 +125,31 @@ footer p{
     font-size: 14px;
  
 }
+
+
+@media (max-width:450px){
+
+    body{
+        padding: 20px;
+        height: 100vh;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+      
+    }
+
+    .app-name{
+        width: 100%;
+    }
+
+    .conversion-container{
+        width: 100%;
+    }
+
+
+    footer p{
+        font-size: 10px;
+    }
+   
+}
